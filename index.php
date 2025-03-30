@@ -3,7 +3,9 @@
   
 
 <?php
-include 'header.php';
+include 'particles/header.php';
+include 'particles/form.php';
+include 'particles/process_form.php';
 ?>
 
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -473,34 +475,14 @@ include 'header.php';
 </section>
 
 <!-- Contact section -->
-<section id="contact" class="parallax-section">
-  <div class="overlay"></div>
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-            <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
-                <h2>Say hello</h2>
-                <h4>we are always ready to serve you!</h4>
-            </div>
-				<div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
-					<form id="contact-form" method="post" action="#">
-						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
-						<input name="email" type="email" class="form-control" placeholder="Your Email" required>
-						<textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>
-						<input type="submit" class="form-control submit" value="SEND MESSAGE">
-					</form>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</section>
-
 <!-- Footer section -->
 <?php
-include 'header.php';
+include 'particles/footer.php';
+
+
+
 ?>
+
 
 
 <!-- Copyright section -->
@@ -511,8 +493,7 @@ include 'header.php';
       <div class="col-md-8 col-sm-8 col-xs-8">
         <p>Copyright © 2019 Steak House Company 
         
-        - Design: <a rel="nofollow" class="designed-by" href="https://www.tooplate.com">Tooplate</a></p>
-      </div>  
+      
 
       <div class="col-md-4 col-sm-4 text-right">
         <a href="#top" class="fa fa-angle-up smoothScroll gototop"></a>
