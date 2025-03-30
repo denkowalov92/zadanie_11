@@ -503,7 +503,7 @@ include 'particles/footer.php';
   </div>
 </section>
 
-<!-- javscript js -->
+<!-- javscript  -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
