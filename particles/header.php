@@ -3,20 +3,15 @@
 <head>
 
 	<title>Steak House - Free HTML Template</title>
-<!--
 
-Tooplate 2083 Steak House
 
-https://www.tooplate.com/view/2083-steak-house
 
--->
   	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
   	<meta name="description" content="">
 
-	<!-- stylesheets css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 
   	<link rel="stylesheet" href="css/magnific-popup.css">
